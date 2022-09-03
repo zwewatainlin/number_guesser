@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Number Guesser</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" >
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="title">Number Guesser</h1>
+    <p class="instructions">Guess the number within the range. You have to guess it in 10 turns!</p>
+  </header>
+    <div class="range-section">
+    <form>
+      <h2>0 to </h2><select class="range" name="range">
+        <option value="35">35 (Easy 😃)</option>
+        <option value="70">70 (Normal 😀)</option>
+        <option value="110">110 (Hard 😎)</option>
+        <option value="150">150 (Insane 🥶)</option>
+      </select>
+      
+    </form>
+  </div>
+  <div class="hidden-section">
+    <div class="hidden-box"><span class="hidden-num">5</span></div>
+    <div class="question-box">?</div>
+  </div>
+
+  <div class="guess-section">
+    <form>
+      <input type="text" class="guess" name="guess" placeholder="Guess">
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

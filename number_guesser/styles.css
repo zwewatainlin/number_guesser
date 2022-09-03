@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #FFF600;
+}
+
+.title {
+  font-family: Poppins;
+  margin-bottom: 10px;
+}
+
+.instructions {
+  font-family: Poppins;
+  font-weight: 200;
+}
+
+.range-section {
+  font-family: Poppins;
+  text-align: center;
+  display: flex;
+  height: 50px;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+  width: 30%;
+  border: 2px solid #FFF600;
+}
+
+.hidden-section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 50px;
+  position: relative;
+}
+
+.hidden-box {
+  background-color: #FFF600;
+  padding: 40px;
+  height: 120px;
+  font-family: Poppins;
+  font-size: 25px;
+  border-radius: 15px;
+  color: black;
+}
+
+.question-box {
+  position: absolute;
+  background-color: #FFF600;
+  padding: 40px;
+  height: 120px;
+  font-family: Poppins;
+  font-size: 25px;
+  border-radius: 15px;
+  color: black;
+  transition: position 1s ease-in-out;
+}
+
+.guess-section {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.guess {
+    height: 30px;
+    font-size: 15px;
+}
